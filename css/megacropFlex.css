@@ -1,0 +1,465 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+body .btn {
+  width: 7rem;
+  height: 2.7rem;
+  font-size: 0.8rem;
+  background-color: rgb(0, 119, 255);
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.wrapper {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4% 2%;
+  /* background-color: rgb(148, 68, 148); */
+}
+
+.flex_box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 1.5rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 0.2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.active {
+  background-color: rgb(0, 119, 255);
+}
+
+header li:hover {
+  background-color: rgb(0, 119, 255);
+}
+
+.headings {
+  text-align: center;
+  margin-top: 6%;
+}
+
+.headings h1 {
+  font-weight: lighter;
+}
+
+.headings p {
+  line-height: 2;
+  margin: 1.7% 0 4%;
+}
+
+.wrapper .btn {
+  width: 10rem;
+  height: 3.5rem;
+  background-color: rgb(0, 119, 255);
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.1rem;
+}
+
+/* wraaper header ends here */
+
+/* info starts here */
+
+.info {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.info .btn {
+  width: 7rem;
+  height: 2.7rem;
+  font-size: 0.8rem;
+}
+
+.info .fa {
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 7% 0;
+}
+
+.info section {
+  width: 320px;
+}
+.info section p {
+  font-size: 0.8rem;
+  line-height: 1.7;
+  margin-bottom: 7%;
+}
+
+/* info section ends here */
+
+/************ testimonial_wrapper starts from here ************/
+
+.testimonial_wrapper {
+  width: 100%;
+  background-color: rgba(20, 19, 19, 0.973);
+  color: #fff;
+}
+
+.left_contents {
+  width: 67%;
+  /* background-color: rgb(97, 1, 1); */
+}
+
+h3 {
+  padding-bottom: 3%;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  margin: 1.7% 0 4%;
+  line-height: 2;
+}
+
+.left_contents img {
+  width: 100%;
+  border-radius: 0.6rem;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  margin: 1.7% 0 4%;
+  line-height: 1.8;
+}
+
+.leftbottom_contents .firstchild {
+  width: 45%;
+}
+hr {
+  margin: 2.5rem 0;
+  width: auto;
+  height: 0.1px;
+  border: none;
+  background-color: #acacac;
+}
+
+.mybtn {
+  display: flex;
+  margin: 6% 0;
+}
+
+.mybtn .btn {
+  width: 6rem;
+  height: 2.3rem;
+  font-size: 0.6rem;
+}
+
+.mybtn h5 {
+  padding-top: 0.7rem;
+  padding-left: 0.7rem;
+}
+
+.leftbottom_contents .secondchild {
+  width: 47%;
+}
+
+.secondchild hr {
+  margin: 0;
+}
+
+.secondchild h5 {
+  margin-top: 7%;
+}
+
+/* left contents ends herer */
+
+.right_contents {
+  width: 28%;
+  /* background-color: rgb(2, 10, 54); */
+}
+
+.right_contents h3 {
+  margin-bottom: 1.2rem;
+}
+.right_contents hr {
+  margin: 0.6rem 0;
+}
+
+.right_contents img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+
+.right_contents h4 {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+
+.right_contents .links {
+  width: 47%;
+}
+
+.img {
+  width: 22%;
+}
+.img img {
+  width: 100%;
+}
+
+.para {
+  width: 74%;
+  margin-top: -2%;
+}
+
+.myborder {
+  border-bottom: 1px solid grey;
+  padding-top: 2.5rem;
+}
+.no_border {
+  border-bottom: none;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+
+  text-align: center;
+  background-color: rgba(20, 19, 19, 0.973);
+  color: #fff;
+}
+footer p {
+  font-size: 0.9rem;
+}
+footer .inner {
+  border-top: 1px solid #dbdbdb;
+}
+
+/* footer ends here */
+
+/************************* media query starts ****************************/
+
+@media (max-width: 1000px) {
+  .info section {
+    width: 310px;
+  }
+  .right_contents h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .info section {
+    margin: 0 auto;
+  }
+  .info .btn {
+    margin-bottom: 20%;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 900px) {
+  .left_contents {
+    width: 100%;
+    padding-bottom: 8%;
+  }
+
+  .right_contents {
+    width: 100%;
+    border-top: 2px solid grey;
+    padding: 5% 0;
+  }
+  .right_contents h3 {
+    font-size: 1.7rem;
+  }
+
+  html {
+    font-size: 16px;
+  }
+
+  .right_contents h4 {
+    padding: 3.5rem 0 1.5rem;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    margin-left: 30%;
+  }
+
+  .myborder {
+    width: 50%;
+  }
+
+  .img {
+    padding-left: 5%;
+  }
+  .img img {
+    margin-bottom: 2rem;
+  }
+
+  .right_contents .links {
+    width: 45%;
+    padding: 0 4%;
+  }
+
+  .para {
+    width: 70%;
+    margin-top: -2%;
+    padding-right: 4%;
+  }
+
+  .myborder {
+    border-bottom: none;
+  }
+  .right_contents .btn {
+    margin: 2rem auto 0;
+  }
+
+  .testimonial_wrapper {
+    padding: 0 4%;
+  }
+}
+
+@media (max-width: 684px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 560px) {
+  html {
+    font-size: 13px;
+  }
+
+  .logo {
+    margin: 3% auto 8%;
+    font-size: 2rem;
+  }
+  .headings h1 {
+    font-size: 1.5rem;
+  }
+
+  .headings p {
+    font-size: 0.6rem;
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+
+  header ul li {
+    padding: 0.5rem 0.7rem;
+  }
+
+  ul li a {
+    font-size: 0.8rem;
+  }
+  .headings {
+    margin: 15% 15% 0;
+  }
+
+  .right_contents h4 {
+    margin-left: 20%;
+    /* margin: 0 auto; */
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 11px;
+  }
+
+  header ul li {
+    padding: 0.5rem 0.7rem;
+  }
+
+  ul li a {
+    font-size: 0.6rem;
+  }
+
+  .img {
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .img img {
+    width: 75%;
+  }
+
+  .para {
+    padding: 0 5%;
+    margin-left: 2.3rem;
+
+    text-align: justify;
+  }
+
+  .headings {
+    margin: 25% 8% 0;
+  }
+
+  .headings h1 {
+    font-size: 1.8rem;
+  }
+  .headings p {
+    padding: 0 3rem;
+  }
+
+  .info {
+    padding: 8% 15%;
+  }
+
+  .testimonial_wrapper h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .right_contents h4 {
+    margin-left: 15%;
+    font-size: 2rem;
+  }
+
+  footer p {
+    font-size: 0.6rem;
+  }
+}
